@@ -1,4 +1,4 @@
-Code for our paper introducing a quick way of calculating shapley values for outlier ensembles.
+Code for our paper "On the efficient Explanation of Outlier Detection Ensembles through Shapley Values" (PAKDD 2024) introducing a quick way of calculating shapley values for outlier ensembles.
 
 main.py trains many models. It requires a file training.npz containing a list of training samples and a file test.npz containing a list of testing samples (and their labels).
 Here it trains isolation trees, while the file dean.py trains DEAN models.
